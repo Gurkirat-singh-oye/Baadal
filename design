@@ -1,0 +1,5 @@
+termux as an app hosting service
+
+git server (bare repo) - repos.git
+service/daemon to watch for changes in the given [repository name].git directory - shooting_range(runit - service), kitchen(directory), chop_board.sh, finger.py
+and somehow make a "trigger"(specifying how to run the given app?) to fire the "pushed" program - finger.py, TrigLock(file in the repository)

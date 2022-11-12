@@ -1,0 +1,4 @@
+#!/bin/bash
+
+while inotifywait -e close_write /data/data/com.termux/files/home/git_server/repos.git; do /data/data/com.termux/files/home/kitchen/chop_board.sh; done
+
