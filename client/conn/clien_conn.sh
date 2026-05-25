@@ -1,5 +1,7 @@
 #!/bin/bash
 
+curl -s -d "clie-serv:conn_req" ntfy.sh/tuhade_pind_da_raa
+
 while IFS=':' read -a message ; do
     # for i in "${message[@]}";do
     #     echo "$i"
